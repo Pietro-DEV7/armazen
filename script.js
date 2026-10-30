@@ -1,5 +1,5 @@
-Document.querySelectorAll('img[data-img]').forEach(i => {
-  i.src = 'assets/' + i.dataset.img + '.' + (i.dataset.img === 'logo' ? 'png' : 'jpg');
+document.querySelectorAll('img[data-img]').forEach(i => {
+  i.src = i.dataset.img + '.' + (i.dataset.img === 'logo' ? 'png' : 'jpg');
 });
 
 const M = {
